@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 rolls = ARGV[0].to_i.times.map { 1 + Random.rand(6) }
 puts rolls.inspect
 
